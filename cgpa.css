@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to top, #0c7b93 0%, #00a8cc 100%);
+    background: linear-gradient(to right, #00093c, #2d0b00);
   }
   /* cgpa container css part */
   .cgpa_container{
