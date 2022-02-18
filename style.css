@@ -96,6 +96,7 @@ footer{
     padding: 100p 0 30px;
     font-size: 12px;
     line-height: 20px;
+    display: block;
 }
 
 
@@ -117,11 +118,22 @@ footer{
 
 
 .logo{
-    width: 35%;
+    width: 30%;
     margin-top: 5%;
     margin-right: 50px;
     margin-left: 60%;
 }
+
+
+.winner-img {
+    height: 170px;
+    width: 250px;
+    position: absolute;
+    top: 88px;
+    right: 40.5%;
+    left: 35px;
+}
+
 
 .col h2{
     width: fit-content;

@@ -37,7 +37,7 @@
     width: 100%;
     height: 50px;
     padding: 10px;
-    background-color: #00abfa;
+    background-color: #32af76;
     text-align: center;
     line-height: 50px;
     font-family: Bahnschrift SemiBold;
@@ -84,7 +84,7 @@
   .cgpa_container .cgpa_output #btn_re,
   .cgpa_container .cgpa_output #btn_sub {
     border: none;
-    background-color: #00abfa;
+    background-color:  #32af76;
     outline: none;
     font-size: 20px;
     font-family: roboto slab;
@@ -100,7 +100,8 @@
   .cgpa_container .cgpa_output #btn_re{
     margin-right: 15px;
   }
-  /* cgpa_container cgpa_output > btn_re:active css part*/
+
+/* cgpa_container cgpa_output > btn_re:active css part*/
   /* cgpa_container cgpa_output > btn_sub:active css part*/
   
   .cgpa_container .cgpa_output #btn_re:active,
