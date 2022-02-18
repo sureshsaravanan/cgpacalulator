@@ -124,7 +124,10 @@ footer{
     margin-left: 60%;
 }
 
-
+@media screen and (min-width: 500px) and (max-width: 750px)
+.winner-img {
+    display: none;
+}
 .winner-img {
     height: 170px;
     width: 250px;
