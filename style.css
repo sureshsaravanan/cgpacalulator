@@ -86,8 +86,6 @@ a.btn-third:hover{
 }
 
 
-
-
 footer{
     width: 100%;
     height: 100%;
@@ -96,17 +94,82 @@ footer{
     color: #fff ;
     background: linear-gradient(to right, #00093c, #2d0b00);
     padding: 100p 0 30px;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 20px;
 }
 
 
 .row{
-    padding: 40px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 }
-
 
 .col{
-    margin-right: 65%;
+    flex-basis: 25%;
+    margin-top: 8%;
+    margin-left: 10px;
+    text-decoration: none;
 }
 
+
+.logo{
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 150px;
+}
+
+.col h2{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    color: #fff;
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    margin: 20px 0 auto;
+}
+
+
+.underline{
+    width: 100%;
+    height: 7px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@media (max-width:700px){
+    footer{
+        bottom: unset;
+    }
+}
