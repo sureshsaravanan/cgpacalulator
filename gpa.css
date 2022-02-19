@@ -1,0 +1,86 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+  }
+
+  .gpa_container{
+    width: 500px;
+    height: auto;
+    position: fixed;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+      7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .gpa_container > .gpa_title{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #32af76;
+    text-align: center;
+    line-height: 50px;
+    font-family: Bahnschrift SemiBold;
+    font-size: 24px;
+    color:#fff;
+    border-radius: 10px 10px 0px 0px ;
+  }
+
+
+  .btn-group-vertical{
+    text-align: center;
+    padding: 20px;
+    margin-left: 45%;
+}
+
+a.btn{
+   margin: 30px;
+   width: 150px;
+   padding: 12px;
+   border-radius: 20px;
+}
+
+  .btn3{
+    width: 100%; 
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+a.btn-first{
+    background-color: #f80;
+    width: 150px;
+    
+}
+ 
+a.btn-first:hover{
+    color: #f80;
+}
+
+a.btn-second{
+    background-color: #f80;
+    width: 150px;   
+}
+ 
+a.btn-second:hover{
+    color: #f80;
+}
+
+@media  screen and (min-width:100px) and (max-width:500px){
+    .gpa_container{
+        display:block;
+    }
+}
