@@ -93,7 +93,6 @@ footer{
     bottom: 0;
     color: #fff ;
     background: linear-gradient(to right, #00093c, #2d0b00);
-    padding: 100p 0 30px;
     font-size: 12px;
     line-height: 20px;
     display: block;
@@ -124,17 +123,17 @@ footer{
     margin-left: 60%;
 }
 
-@media screen and (min-width: 500px) and (max-width: 750px)
 .winner-img {
-    display: none;
-}
-.winner-img {
-    height: 170px;
+    height: 160px;
     width: 250px;
     position: absolute;
-    top: 88px;
+    top: 80px;
     right: 40.5%;
     left: 35px;
+}
+
+.row h4{
+    margin-left: 14px;
 }
 
 
@@ -192,5 +191,11 @@ hr{
 @media (max-width:700px){
     footer{
         bottom: unset;
+    }
+}
+
+@media  screen and (min-width:100px) and (max-width:900px){
+    .winner-img{
+        display: none;
     }
 }
