@@ -18,7 +18,7 @@ body{
 
 .table-row{
     display: table;
-    width: 80%;
+    width: 40%;
     margin: 10px auto;
     background: transparent;
     padding: 12px 0;
@@ -46,7 +46,7 @@ body{
 
 .first-cell{
     text-align: left;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .table-row h5{
